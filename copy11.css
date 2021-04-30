@@ -93,3 +93,37 @@ nav li a {
   margin: 0 auto;
   text-align: center;
 }
+
+#menu .menu-item:first-child {
+  border-right: solid 1px #000;
+}
+
+#menu .menu-item {
+  width: 50%;
+  padding: 0 45px;
+}
+
+.item-title {
+  font-size: 2.5rem;
+  display: inline-block;
+  border-bottom: solid 6px #e03131;
+  margin-bottom: 70px;
+}
+
+#menu .menu-item dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#menu .menu-item dt {
+  width: 87%;
+  text-align: left;
+  border-bottom: dotted 1px #000;
+  margin-bottom: 25px;
+}
+
+#menu .menu-item dd {
+  width: 13%;
+  text-align: right;
+  padding-top: 8px;
+}
