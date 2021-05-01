@@ -127,3 +127,40 @@ nav li a {
   text-align: right;
   padding-top: 8px;
 }
+
+
+
+#about {
+  margin-top: 20px;
+}
+
+#about .about-img {
+  background-image: url(img/about.jpg);
+  position: relative;
+}
+
+#about ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+#about li {
+  width: 46%;
+  line-height: 2;
+  text-align: left;
+  padding: 2%;
+}
+
+#about .btn {
+  width: 160px;
+  height: 50px;
+  line-height: 3.5;
+  display: inline-block;
+  color: #000;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
