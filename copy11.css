@@ -231,3 +231,9 @@ nav li a {
 #location .item-info p {
   margin-bottom: 10px;
 }
+
+#footer {
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
+}
